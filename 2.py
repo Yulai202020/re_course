@@ -5,5 +5,4 @@ pattern = re.compile(r"(\+\-)?\d+(\.|,)?\d*") # find all decimal number or whole
 
 a = [x.group() for x in re.finditer(pattern, string)]
 
-print(a) # idk why i cant do pattern.findall
-print(pattern.findall(string)) # ITS NOT SAME!!!??? BRUH
+print(a)
